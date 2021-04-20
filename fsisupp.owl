@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#"
-     xml:base="http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#"
+     xml:base="https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,7 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#">
         <rdfs:comment>Contains addtional classes and properties that are useful in FSI linked data development, especially in conjunction with Omeka S.</rdfs:comment>
     </owl:Ontology>
     
@@ -56,10 +56,10 @@
     
 
 
-    <!-- http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000239 -->
+    <!-- https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000239 -->
 
-    <owl:ObjectProperty rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000239">
-        <rdfs:range rdf:resource="http://asi.ice.ucdavis.edu/sustsource/schemas/sustsource.owl#Issue"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000239">
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/adhollander/FSLschemas/main/sustsource.owl#Issue"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-12T23:15:41Z</dc:date>
         <rdfs:comment>A sustainability issue that is related in some manner to the resource.</rdfs:comment>
@@ -79,9 +79,9 @@
     
 
 
-    <!-- http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000240 -->
+    <!-- https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000240 -->
 
-    <owl:DatatypeProperty rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000240">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000240">
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-12T23:51:34Z</dc:date>
         <rdfs:label>Spatial resolution</rdfs:label>
@@ -89,9 +89,9 @@
     
 
 
-    <!-- http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000241 -->
+    <!-- https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000241 -->
 
-    <owl:DatatypeProperty rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000241">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000241">
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-12T23:51:46Z</dc:date>
         <rdfs:label>Temporal resolution</rdfs:label>
@@ -99,9 +99,9 @@
     
 
 
-    <!-- http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000242 -->
+    <!-- https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000242 -->
 
-    <owl:DatatypeProperty rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000242">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000242">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-08T23:16:28Z</dc:date>
@@ -110,9 +110,9 @@
     
 
 
-    <!-- http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000243 -->
+    <!-- https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000243 -->
 
-    <owl:DatatypeProperty rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000243">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000243">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-08T23:16:28Z</dc:date>
@@ -121,9 +121,9 @@
     
 
 
-    <!-- http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000245 -->
+    <!-- https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000245 -->
 
-    <owl:DatatypeProperty rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/fsisupp.owl#FSI_000245">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/adhollander/FSLschemas/main/fsisupp.owl#FSI_000245">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2647-8235"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-08T23:21:26Z</dc:date>
@@ -151,9 +151,9 @@
     
 
 
-    <!-- http://asi.ice.ucdavis.edu/sustsource/schemas/sustsource.owl#Issue -->
+    <!-- https://raw.githubusercontent.com/adhollander/FSLschemas/main/sustsource.owl#Issue -->
 
-    <owl:Class rdf:about="http://asi.ice.ucdavis.edu/sustsource/schemas/sustsource.owl#Issue">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/adhollander/FSLschemas/main/sustsource.owl#Issue">
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://asi.ice.ucdavis.edu/sustsource/sustsource.owl#</obo:IAO_0000412>
         <rdfs:label>Issue</rdfs:label>
     </owl:Class>
